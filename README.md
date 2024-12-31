@@ -1,6 +1,6 @@
 # TIKTOK Clone
 
-This is a high-level clone of the popular dating app TIKTOK, built using the MERN stack (MongoDB, Express, React, Node.js). The application implements basic swipe functionality, allowing users to swipe left or right on profiles, as well as an undo swipe feature.
+This is a high-level clone of the popular SM app TIKTOK, built using the MERN stack (MongoDB, Express, React, Node.js). The application implements basic scroll functionality, scroll on videos.
 
 ## Features
 
@@ -41,8 +41,8 @@ This is a high-level clone of the popular dating app TIKTOK, built using the MER
         npm install```
 
 3. **Start the application**
-    - configure db connection 'backend/server.js line 9 
-    ```const dbconn = 'mongodb://127.0.0.1:27017/TIKTOK_db';```
+    - configure db connection 'backend/server.js line 10 
+    ```const dbconn = 'mongodb://127.0.0.1:27017/titktok_db';```
     - Backend (server) on port 3003:
         ```bash
         cd server
